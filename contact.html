@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Sri DSR Kids Playschool</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      font-size: 2.3vh;
+      background: linear-gradient(135deg, #F06292, #4A148C);
+      color: #fffafc;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 3vw;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(90deg, #fceabb, #f8b500);
+      padding: 2vh 2vw;
+      border-bottom: 2px solid #fff;
+    }
+
+    .logo {
+      max-width: 90vh;
+      margin-bottom: 2vh;
+    }
+
+    .navbut {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2vh;
+      margin-top: 1vh;
+    }
+
+    .navbut a {
+      text-decoration: none;
+      padding: 1vh 2.5vh;
+      font-size: 2.2vh;
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .navbut a:hover,
+    .navbut a.active {
+      background-color: black;
+      color: white;
+    }
+
+    h1, h2 {
+      color: #ffff00;
+    }
+
+    h1 {
+      margin-top: 5vh;
+      font-size: 4.2vh;
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+      max-width: 900px;
+      margin-bottom: 4vh;
+    }
+
+    .highlight {
+      color: #eaff00;
+      font-weight: bold;
+    }
+
+    .contact-flex {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 5vh;
+    }
+
+    .form-box, .info-box {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(6px);
+      border-radius: 15px;
+      padding: 4vh 4vw;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      flex: 1 1 45%;
+      min-width: 300px;
+    }
+
+    .form-box h2, .info-box h2 {
+      color: #ffff00;
+      margin-bottom: 2vh;
+      font-size: 3vh;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 1.2vh;
+      margin: 1vh 0;
+      border: none;
+      border-radius: 8px;
+      font-size: 2vh;
+    }
+
+    textarea {
+      resize: none;
+      height: 12vh;
+    }
+
+    button {
+      width: 100%;
+      background-color: #ffff00;
+      color: black;
+      font-weight: bold;
+      padding: 1.5vh;
+      font-size: 2vh;
+      border: none;
+      border-radius: 8px;
+      margin-top: 2vh;
+      cursor: pointer;
+    }
+
+    .info-item {
+      margin-bottom: 2vh;
+      font-size: 2.2vh;
+    }
+
+    .info-item a {
+      color: #00eaff;
+      text-decoration: none;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background: #ffffff55;
+      margin: 4vh 0;
+      width: 100%;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body {
+        font-size: 2vh;
+      }
+
+      .container {
+        padding: 4vh 5vw;
+      }
+
+      .logo {
+        max-width: 80px;
+      }
+
+      .navbut a {
+        font-size: 2vh;
+        padding: 1vh 2vh;
+      }
+
+      h1 {
+        font-size: 3.5vh;
+        text-align: center;
+      }
+
+      .form-box, .info-box {
+        flex: 1 1 100%;
+        padding: 4vh 6vw;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="main">
+    <img src="logo-orginal_hd-1-removebg-preview (1).png" class="logo" alt="Sri DSR Kids Logo" />
+    <div class="navbut">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact us</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>If you have any questions or would like to enroll your child at <span class="highlight">Sri DSR Kids Playschool</span>, feel free to contact us through the form or details below.</p>
+    
+    <hr>
+
+    <div class="contact-flex">
+      <div class="form-box">
+        <h2>Send us a Message</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="tel" placeholder="Phone Number" />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="info-box">
+        <h2>Our Location</h2>
+        <div class="info-item">
+          📍 <strong>Address:</strong> OPP Municipal Park, Pulla Reddy Nagar, Kavali, Nellore, Andhra Pradesh
+        </div>
+        <div class="info-item">
+          📞 <strong>Phone:</strong> <a href="https://wa.me/917382592810" target="_blank">7382592810</a>
+        </div>
+        <div class="info-item">
+          📧 <strong>Email:</strong> <a href="mailto:dsrkidsplayschool@gmail.com">dsrkidsplayschool@gmail.com</a>
+        </div>
+        <div class="info-item">
+          🗜️ <strong>Map:</strong> <a href="https://maps.app.goo.gl/U5S1ynXAq2VAS1Ej8" target="_blank">View on Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

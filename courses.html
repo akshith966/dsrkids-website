@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Courses - Sri DSR Kids Playschool</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      font-size: 2.3vh;
+      background: linear-gradient(135deg, #F06292, #4A148C);
+      color: #fffafc;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 3vw;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(90deg, #fceabb, #f8b500);
+      padding: 2vh 2vw;
+      border-bottom: 2px solid #fff;
+    }
+
+    .logo {
+      max-width: 90vh;
+      margin-bottom: 2vh;
+    }
+
+    .navbut {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2vh;
+      margin-top: 1vh;
+    }
+
+    .navbut a {
+      text-decoration: none;
+      padding: 1vh 2.5vh;
+      font-size: 2.2vh;
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .navbut a:hover,
+    .navbut a.active {
+      background-color: black;
+      color: white;
+    }
+
+    h1, h2 {
+      color: #ffff00;
+    }
+
+    h1 {
+      margin-top: 5vh;
+      font-size: 4.2vh;
+      text-align: center;
+    }
+
+    .course {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(6px);
+      border-radius: 15px;
+      padding: 3vh 4vw;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      margin: 4vh auto;
+      max-width: 900px;
+    }
+
+    .course h2 {
+      margin-top: 0;
+      color: #ffeb3b;
+      font-size: 3.2vh;
+    }
+
+    .course p {
+      text-align: justify;
+      font-size: 2.1vh;
+      margin-top: 1vh;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background: #ffffff55;
+      margin: 4vh 0;
+      width: 100%;
+    }
+
+    .bot {
+      height: auto;
+      background-color: #1a0d4b;
+      display: flex;
+    }
+
+    .bottom {
+      color: #fffafc;
+      text-align: center;
+      margin: auto;
+      list-style: 5px;
+    }
+
+    .bottom a {
+      color: #fffafc;
+      text-align: center;
+      margin: auto;
+      list-style: 5px;
+      font-size: 3vh;
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body {
+        font-size: 2vh;
+      }
+
+      .container {
+        padding: 4vh 5vw;
+      }
+
+      .logo {
+        max-width: 80px;
+      }
+
+      .navbut a {
+        font-size: 2vh;
+        padding: 1vh 2vh;
+      }
+
+      h1 {
+        font-size: 3.5vh;
+        text-align: center;
+      }
+
+      .course {
+        padding: 4vh 5vw;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="main">
+    <img src="logo-orginal_hd-1-removebg-preview (1).png" class="logo" alt="Sri DSR Kids Logo" />
+    <div class="navbut">
+      <a href="index.html">Home</a>
+      <a href="courses.html" class="active">Courses</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1>Our Courses</h1>
+
+    <div class="course">
+      <h2>Playgroup</h2>
+      <p>
+        A gentle introduction to the world of learning. Our Playgroup program focuses on sensory exploration, social interaction, and fun-filled activities that help toddlers feel safe, loved, and curious in a warm environment.
+      </p>
+    </div>
+
+    <div class="course">
+      <h2>Nursery</h2>
+      <p>
+        Nursery develops foundational skills through engaging activities focused on speech, colors, shapes, numbers, and letters. Music, movement, and hands-on learning build confidence, language, and motor skills in a joyful environment.
+      </p>
+    </div>
+
+    <div class="course">
+      <h2>Junior KG</h2>
+      <p>
+        Junior Kindergarten focuses on pre-writing, phonics, number skills, and motor development. Children grow in confidence as they learn through structured play, group activities, and independent tasks that prepare them for school life.
+      </p>
+    </div>
+
+    <div class="course">
+      <h2>Senior KG</h2>
+      <p>
+        Our Senior KG program prepares children for formal school with reading readiness, basic math, language skills, and life values. Focused attention on communication, discipline, and creativity ensures a smooth transition to Grade 1.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="bot">
+    <div class="bottom">
+      <p>© 2025 Sri DSR Kids Playschool</p>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </div>
+
+</body>
+</html>

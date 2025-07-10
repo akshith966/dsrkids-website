@@ -1,0 +1,352 @@
+/* -------------------- DESKTOP STYLES -------------------- */
+
+body {
+  margin: 0px;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #ffd6e0, #e7eff9);
+}
+
+.main {
+  display: flex;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  align-items: center;
+  padding: 2vh 5vw;
+}
+
+.logo {
+  width: 15vh;
+  height: auto;
+  margin-left: 5vh;
+  margin-top: 2vh;
+}
+
+.navbut {
+  margin-left: auto;
+  padding-top: 3vh;
+  padding-right: 5vh;
+}
+
+.navbut a {
+  text-decoration: none;
+  margin: 2vh;
+  text-align: right;
+  color: black;
+  font-size: 4vh;
+  border-width: 2px;
+  padding: 1.5vh 3vh;
+  transition: 0.275s;
+}
+
+.navbut a:hover {
+  color: white;
+}
+
+p {
+  font-size: 2vh;
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+.middle-main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, rgba(231, 210, 20, 0.8), rgba(176, 124, 44, 0.8)), url("Untitled design.png");
+  border-radius: 15px;
+  margin: 5vh 10vw;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+  padding: 2vh 4vw;
+}
+
+.kbp {
+  font-size: 8vh;
+  color: rgb(238, 238, 238);
+  margin: 1px;
+}
+
+.middle-main a {
+  text-decoration: none;
+  color: white;
+  font-size: 3vh;
+  border: 0.75vh solid white;
+  padding: 3vh;
+  margin-top: 2vh;
+  transition: background-color 1s, color 1s, border 1s;
+}
+
+.middle-main a:hover {
+  background-color: #fff700;
+  color: rgb(0, 0, 0);
+  border: 0.75vh solid black;
+}
+
+.co, .fach {
+  font-size: 6vh;
+  text-align: center;
+  margin: 8vh 0 2vh;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vh;
+  padding: 2vh;
+}
+
+.courses div {
+  padding: 6vh;
+  border: 2px solid black;
+  border-radius: 15px;
+  background: linear-gradient(135deg, rgba(231, 210, 20, 0.8), rgba(176, 124, 44, 0.8));
+  color: white;
+  width: 20vw;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.courses div:hover {
+  background: linear-gradient(135deg, rgba(219, 219, 219, 0), rgba(255, 150, 12, 0.8));   
+  padding: 4vw;
+}
+
+.fac,
+.fac2,
+.fac3,
+.fac4,
+.facend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  margin: 5vh auto;
+}
+
+.safe,
+.mont,
+.dae,
+.sp {
+  max-width: 90vw;
+  width: 100%;
+  border: 0px solid black;
+  text-align: justify;
+  padding: 4vh 4vw;
+  border-radius: 62px;
+  background-color: #fffafc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, rgba(231, 210, 20, 0.8), rgba(176, 124, 44, 0.8));
+  transition: 0.75s;
+}
+
+.safe img,
+.mont img,
+.dae img,
+.sp img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.safe:hover,
+.mont:hover,
+.dae:hover,
+.sp:hover {
+  background: linear-gradient(135deg, rgba(219, 219, 219, 0), rgba(255, 150, 12, 0.8));   
+  padding: 4vw;
+}
+
+.flex {
+  flex-wrap: wrap;
+}
+
+.fae h1 {
+  font-size: 3vw;
+}
+
+.bot {
+  height: auto;
+  background-color: #1a0d4b;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottom {
+  color: #fffafc;
+  text-align: center;
+  margin: auto;
+}
+
+.bottom a {
+  color: #fffafc;
+  font-size: 3vh;
+  text-decoration: underline;
+}
+  .navbut a.active {
+    background-color: black;
+    color: white;
+  }
+
+
+/* -------------------- MOBILE STYLES -------------------- */
+@media (max-width: 768px) {
+  body {
+    font-size: 2.2vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffd6e0, #e7eff9);
+    font-family: Arial, sans-serif;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+    text-align: center;
+  }
+
+  .logo {
+    display: block;
+    margin: 4vh auto 1vh;
+    width: auto;
+    height: 15vh;
+    
+  }
+
+.navbut {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1vh;
+  margin-bottom: 2vh;
+  padding: 0;
+}
+
+.navbut a {
+  padding: 1vh 2.5vh;
+  font-size: 2.2vh;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.navbut a:hover,
+.navbut a.active {
+  background-color: black;
+  color: white;
+}
+
+
+
+  .middle-main {
+    text-align: center;
+    background: linear-gradient(135deg, rgba(231, 210, 20, 0.85), rgba(176, 124, 44, 0.85)), url("Untitled design.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 4vh 4vw;
+    margin: 2vh auto;
+    width: 90%;
+    color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+  .kbp {
+    font-size: 4.5vh;
+    font-weight: bold;
+    margin-bottom: 2vh;
+  }
+
+  .middle-main p {
+    font-size: 2vh;
+    line-height: 1.6;
+    color: #f0f0f0;
+    margin-bottom: 2.5vh;
+  }
+
+  .middle-main a {
+    display: block;
+    width: 100%;
+    margin: 1.5vh 0;
+    padding: 1.5vh;
+    font-size: 2.2vh;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.4s, color 0.4s;
+  }
+
+  .middle-main a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .courses {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4vh 2vw;
+  }
+
+  .courses div {
+    width: 90vw;
+    margin: 2vh auto;
+    font-size: 2vh;
+    padding: 3vh 2vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: linear-gradient(135deg, rgba(231, 210, 20, 0.8), rgba(176, 124, 44, 0.8));
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .fac,
+  .fac2,
+  .fac3,
+  .fac4,
+  .facend {
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+  }
+
+  .safe,
+  .mont,
+  .dae,
+  .sp {
+    width: 90vw;
+    padding: 3vh;
+    font-size: 2vh;
+    border-radius: 20px;
+    text-align: justify;
+    background: linear-gradient(135deg, rgba(231, 210, 20, 0.8), rgba(176, 124, 44, 0.8));
+  }
+
+  .bottom {
+    text-align: center;
+    font-size: 2vh;
+    padding: 3vh;
+    background-color: #1a0d4b;
+    color: white;
+  }
+
+  .bottom a {
+    font-size: 2.2vh;
+    color: white;
+    text-decoration: underline;
+  }
+}
